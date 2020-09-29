@@ -1,0 +1,19 @@
+.favoriteContainer {
+  width: 1200px;
+  background-color: #fff7eb;
+  height: 500px;
+  margin: 0 auto;
+  margin-top:5px;
+  border-radius: 10px;
+
+}
+
+
+.favoriteContainer h1 {
+  color: blue;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+}

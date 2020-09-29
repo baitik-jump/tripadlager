@@ -1,0 +1,98 @@
+.headerContainer {
+
+  background-color: #fff7eb;
+  height: 130px;
+  width: 1300px;
+  margin: 0 auto;
+  border-radius: 0 0 10px 10px;
+
+}
+
+.logologo {
+  width: 230px;
+  height: 100px;
+ }
+
+
+.search {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: -100px;
+
+
+
+}
+input, button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+input {
+  width: 100%;
+  height: 42px;
+  background: #F9F0DA;
+  padding-left: 15px;
+}
+button {
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #F15B42;
+  cursor: pointer;
+}
+button:before {
+  content: "\f105";
+  font-family: 'FontAwesome';
+  color: #F9F0DA;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.ulTabs {
+  list-style-type: none;
+  text-indent: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ulTabs li{
+  display: inline-block;
+  list-style-type: none;
+  margin: 10px 0; /*расстояние между пунктами по высоте*/
+
+}
+
+.decoration {
+  text-decoration: none;
+}
+
+.ulTabs li {
+   font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.ulTabs li:hover {
+  color:black;
+  transition: 1s;
+}
+
+
+
+.alls {
+  color: black;
+}
+
+.signUp {
+  float: right;
+}
+
+.logIn {
+  color: blue;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}

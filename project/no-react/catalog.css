@@ -1,0 +1,142 @@
+.mainCatalog {
+
+}
+
+/*--------catalog------*/
+.catalog {
+  margin: 0 auto;
+  width: 1200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.campsCatalog {
+  position: relative;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.first {
+  background-image: url('images/baytik.jpg');
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+  text-align: center;
+
+
+
+}
+
+.second {
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  margin-left: 150px;
+  background-image: url('images/teamsoft.jpg')
+
+
+}
+
+.third {
+
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+  text-align: center;
+  float: right;
+  background-image: url('images/iskra.jpg')
+
+
+}
+
+.fourth {
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+  float: left;
+  margin-left: 50px;
+  margin-top:20px;
+  background-image: url('images/innocamp.jpg');
+
+
+
+}
+
+.fivth {
+
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+  position: relative;
+  margin-left: 100px;
+  margin-top:20px;
+  background-image: url('images/artek.jpg');
+
+
+
+}
+
+.sixth {
+
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+  float: right;
+  margin-right: 50px;
+  margin-top:20px;
+  background-image: url('images/smartCamp.jpg');
+
+
+}
+
+.seventh {
+
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+  float: left;
+  margin-left: 160px;
+  margin-top:20px;
+  background-image: url('images/stones.jpg');
+}
+
+
+.scale {
+    transition: 1s; /* Время эффекта */
+   color: black;
+   font-size: 18px;
+   font-weight: 700;
+   text-align: center;
+   font-family: 'Nunito', sans-serif;
+
+
+   }
+
+.scale:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+
+
+   }
+
+.eighth {
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+  float: right;
+  margin-right: 160px;
+  margin-top:20px;
+  background-image: url('images/banana.jpg');
+
+}

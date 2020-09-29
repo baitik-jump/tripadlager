@@ -1,0 +1,140 @@
+.contact {
+  /* Style for "BG Colour" */
+    height: 250px;
+    background-color: #fff7eb;
+    width: 1200px;   
+    margin: 0 auto;
+    margin-top: 30px; 
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #6c6c6c;
+    font-size: 16px;
+    font-family: "Open Sans Regular", sans-serif;
+    grid-template-areas: "contact quickLinks fromtheblog  grab ";
+    border-radius: 10px 10px 0 0;
+}
+
+.contact h4 {
+  color: #666666;
+font-family: Georgia;
+font-size: 13px;
+font-weight: 400;
+line-height: 15.6px;
+text-transform: uppercase;
+}
+
+.contacts ul li{
+  list-style-type: none;
+}
+
+.contacts h4 {
+  padding-left: 15px;
+  /* Style for "CONTACT DE" */
+
+
+}
+
+
+.contacts p {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.contacts ul {
+  padding-top: 40px;
+      margin-left: -26px;
+}
+
+.links ul li {
+  list-style-type: none
+}
+
+.links h4 {
+
+
+padding-left: 40px;
+}
+
+.links ul {
+  padding-top: 10px;
+  /* Style for "Link Text" */
+
+
+}
+.links ul li {
+color: #999999;
+font-family: Georgia;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.4px;
+margin-top: 15px;
+}
+
+.links hr {
+  /* Style for "Rectangle" */
+width: 210px;
+height: 1px;
+color: #484848;
+    margin-top: 9px;
+}
+
+.blog h5 {
+  padding-top: 10px;
+}
+
+.blog p {
+  padding-top: 10px;
+}
+
+.blog {
+  padding-left: 25px;
+}
+
+.news input {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  width: 200px;
+}
+
+input {
+  margin: 6px;
+}
+
+input.button {
+  color: #ffffff;
+  float: left;
+  margin-left: 5px;
+}
+
+
+
+.footer-copy {
+  /* Style for "BG Colour" */
+width: 1200px;
+height: 60px;
+background-color: #F9F0DA;
+margin:0 auto;
+}
+
+.Copy {
+  /* Style for "Copyright" */
+width: 322px;
+height: 13px;
+color: #737373;
+font-family: Georgia;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.4px;
+float: left;
+padding-top: 25px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.links {
+  margin-right: 35px;
+}
