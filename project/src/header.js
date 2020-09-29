@@ -39,14 +39,14 @@ export const Header = (props) => {
             <li className=" alls"><div className = 'pointer' onClick={() => props.onPageChange(1)}>Главная</div></li>
             <li><div className=" decoration" onClick={() => props.onPageChange(2)}>Каталог лагерей</div></li>
             <li><div className="decoration" onClick={() => props.onPageChange(3)}>Избранное</div></li>
-            <li><div className="decoration">Профиль</div></li>
-            <li><div className="decoration">О Нас</div></li>
+            <li><div className="decoration" onClick={() => props.onPageChange(4)}>Профиль</div></li>
+            <li><div className="decoration" onClick={() => props.onPageChange(5)}>О Нас</div></li>
         </ul>
       </div>
 
       <div className='signUp'>
           <i class="fa fa-sign-in " aria-hidden="true" />
-            <p className = 'logIn'><a href='#'>Sign Up</a></p>
+            <p className = 'logIn'><a href='#'>Войти | Зарегестрироваться</a></p>
       </div>
 
     </div>
